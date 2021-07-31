@@ -56,7 +56,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero1 image and cover text */
+/* image and cover text */
 
 #hero-outer {
     height: 600px;
@@ -70,19 +70,19 @@ h1, h2 {
     color: #fff;
 }
 
-#hero1-image {
+#woman-yoga-relax-nature-lake-60434685{
     height: 600px;
     width: 100%;
-    background: url('../images/hero1-image.jpg') no-repeat center center;
+    background: url('../images/woman-yoga-relax-nature-lake-60434685') no-repeat center center;
 
     /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
+    animation-name: woman-yoga-relax-nature-lake-60434685-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image */
-@keyframes hero-zoom {
+/* creates the level of zoom for image */
+@keyframes woman-yoga-relax-nature-lake-60434685-zoom {
     from{
         transform: scale(1);
     }
