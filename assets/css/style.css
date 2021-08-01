@@ -260,6 +260,13 @@ footer {
     color: #f16c6b;
 }
 
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
 /* For medium screen sizes from 980px wide and down */
 @media screen and (max-width: 980px) {
 
