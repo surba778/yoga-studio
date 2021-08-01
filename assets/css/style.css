@@ -73,7 +73,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
 }
 /* yoga ethos */
 #yoga-ethos {
@@ -200,10 +200,17 @@ footer {
 /* for signup file */
 .form-section {
     clear: left;
-    background: url('signup.jpg') no-repeat center center;
+    background: url('../images/signup.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 900px;
+}
+
+.form-section div {
+    margin: 10px 0;
+}
+.form-section input {
+    padding: 5px;
 }
 
 .signup-form {
@@ -244,8 +251,8 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: #fff;
+    color: #000;
     display: block;
 }
 
@@ -258,15 +265,16 @@ footer {
   
 .about-section {
     clear: left;
-    background: url('aboutus.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
-    height: 900px;
     padding: 30px;
-    margin: auto;
-    text-align: center;
+    margin: 20px 0 0 0;
+    text-align: left;
     background-color: white;
     color: black;
+  }
+  .about-section p {
+      padding: 20px 0;
   }
 /* For medium screen sizes from 980px wide and down */
 @media screen and (max-width: 980px) {
