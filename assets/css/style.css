@@ -74,14 +74,8 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url('hero-image.jpg') no-repeat center center;
-
-    /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 /* yoga ethos */
-
 #yoga-ethos {
     height: 600px;
 }
@@ -203,7 +197,7 @@ footer {
         display: none;
     }
 }
-
+/* for signup file */
 .form-section {
     clear: left;
     background: url('signup.jpg') no-repeat center center;
@@ -260,12 +254,19 @@ footer {
     color: #f16c6b;
 }
 
-
+/* For aboutus file */
+  
 .about-section {
-    padding: 50px;
+    clear: left;
+    background: url('aboutus.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    padding: 30px;
+    margin: auto;
     text-align: center;
-    background-color: #474e5d;
-    color: white;
+    background-color: white;
+    color: black;
   }
 /* For medium screen sizes from 980px wide and down */
 @media screen and (max-width: 980px) {
