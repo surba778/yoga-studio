@@ -199,9 +199,6 @@ footer {
         float: left;
         padding: 0;
     }
-
-    
-
     hr {
         display: none;
     }
@@ -209,7 +206,7 @@ footer {
 
 .form-section {
     clear: left;
-    background: ("images/signup.jpg");
+    background: url('signup.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -221,14 +218,17 @@ footer {
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
+    text-align: right;
     left: 10%;
     padding: 30px;
+    
 }
 
 .signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
+
 
 .text-input {
     background: transparent;
