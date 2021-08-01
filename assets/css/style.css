@@ -15,7 +15,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: oswald, sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -34,13 +34,13 @@ h1, h2 {
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 60px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 15px;
 }
 
 #menu a {
@@ -177,7 +177,7 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #club-ethos {
+    #yoga-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -201,20 +201,15 @@ footer {
         padding: 0;
     }
 
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
+    
 
     hr {
         display: none;
     }
 }
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* For medium screen sizes from 980px wide and down */
+@media screen and (max-width: 980px) {
 
     #menu {
         clear: left;
@@ -228,7 +223,7 @@ footer {
         left: 0;
     }
 
-    #club-ethos {
+    #yoga-ethos {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
@@ -249,7 +244,7 @@ footer {
     }
 
     #photos {
-        column-count: 3;
+        column-count: 4;
     }
 }
 
