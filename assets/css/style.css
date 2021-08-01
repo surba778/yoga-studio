@@ -64,18 +64,18 @@ h1, h2 {
 
 #left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 23%;
     float: left;
 }
 
 #right-about {
     padding-top: 30px;
-    width: 33%;
+    width: 23%;
     float: right;
 }
 
 #center-about {
-    width: 33%;
+    width: 23%;
     margin: 0 auto;
 }
 
