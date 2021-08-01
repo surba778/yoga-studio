@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: Lucida, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -15,7 +15,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Oswald, sans-serif;
+    font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -56,10 +56,10 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* club ethos */
+/* yoga ethos */
 
-#club-ethos {
-    height: 600px;
+#yoga-ethos {
+    height: 400px;
 }
 
 #left-about {
