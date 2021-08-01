@@ -15,25 +15,25 @@ Users of this website will be able to find all the information they need to know
 
 ![image of navigation menu](https://github.com/surba778/yoga-studio/blob/main/assets/images/readme/navigationmenu-readme.jpg)
 
-- Home 
+- **Home Page**
   - The Home page shows the name of the club and explains why one should choose yoga.
   - This section provides the user with the clear information what the site is and who the club is for.
 
 ![image of Homepage](https://github.com/surba778/yoga-studio/blob/main/assets/images/readme/homepage-readme.jpg)
 
-- The About Us Section 
+- **The About Us Section**
   - The About Us page gives details about what the Yoga studio wants to give to their customers.
   - This section shows the user what are the classes available in the studio.
 
 ![image of about us](https://github.com/surba778/yoga-studio/blob/main/assets/images/readme/aboutus-readme.jpg)
-- The Sign Up Section
+- **The Sign Up Section**
   - The sign up section has a form to colled details from the users so they can sign up the Yoga Studio.
   - The form collects the first name, last name and an email address.
   - The sign up form is valuable to the user as it gives them the ability to sign up to the Yoga Studio
   
 ![image of Signup](https://github.com/surba778/yoga-studio/blob/main/assets/images/readme/signup-readme.jpg)
 
-- The Gallery Section
+- **The Gallery Section**
   - Gallery section contains few pictures taken during our classes in the Yoga Studio.
   - This section is added to give users an idea how we do in the Yodga Studio.
 
