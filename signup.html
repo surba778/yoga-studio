@@ -32,13 +32,38 @@
             </ul>
         </nav>
     </header>
-    <form>
-        <label for="username">Username:</label>
-         <input id="username" type="text">
-         <label for="password">Password:</label>
-         <input id="password" type="password">
-         <input type="submit">
-    </form>
-    
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get you signed up!</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+            
+            <input class="join-button" type="submit" value="Let's Run!">
+        </form>
+    </section>
+    <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
 </body>
 </html>
